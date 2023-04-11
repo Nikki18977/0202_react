@@ -1,0 +1,7 @@
+*.md
+*.lock
+.dockerignore
+Dockerfile*
+.git*
+*compose.yaml
+yarn.lock

@@ -1,0 +1,8 @@
+FROM node:lts-alpine
+
+WORKDIR /server
+COPY server/index.js index.js
+
+CMD ["node", "index.js"]
+
+EXPOSE 9999
